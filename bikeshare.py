@@ -224,15 +224,15 @@ def user_stats(df):
 def display_raw_data(df):
     """ Your docstring here """
     i = 0
-    raw = input("Would you like to see raw data from the first 5 row?(type 'yes' or 'no')").lower() # TO DO: convert the user input to lower case using lower() function
+    raw = input("Would you like to see raw data from the first 5 row?(type 'yes' or 'no')").lower() 
     pd.set_option('display.max_columns',200)
 
     while True:            
         if raw == 'no':
             break
         elif raw == 'yes':
-            print(df[i:5+i]) # TO DO: appropriately subset/slice your dataframe to display next five rows
-            raw = input("Would you like to see the next 5 rows(type 'yes' or no')?").lower() # TO DO: convert the user input to lower case using lower() function
+            print(df[i:5+i]) 
+            raw = input("Would you like to see the next 5 rows(type 'yes' or no')?").lower() 
             i += 5
         else:
             raw = input("\nYour input is invalid. Please enter only 'yes' or 'no'\n").lower()
