@@ -15,5 +15,5 @@ new_york_city.csv (dataset from New York City)
 washington.csv (dataset from Washington)
 
 ### Credits
-This was done as part of Udacity "Programming for Data Science with Python" Nanodegree Program, the content of this course helped me a lot
+The Udacity crew is very cool
 
